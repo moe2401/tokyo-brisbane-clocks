@@ -14,15 +14,32 @@ main{
     background-color: rgb(43,43,43);
 }
 
+.tokyo {
+    color: blue;
+}
+
+.brisbane {
+    color: yellowgreen;
+}
+
 .clock {
     height: 300px;
     width: 300px;
     border-radius: 150px;
-    border: solid 5px rgb(252,255,55);
     position: absolute;
 }
 
-#seconds-hand {
+#clock-tokyo{
+    border: solid 5px hsl(346 100% 37%);
+    background-color: hsl(346 100% 37%);
+}
+
+#clock-brisbane{
+    border: solid 5px hsl(222 98% 21%);
+    background-color: hsl(222 98% 21%);
+}
+
+.seconds-hand {
     position: absolute;
     height: 130px;
     width: 2px;
@@ -33,7 +50,11 @@ main{
     transform-origin: 0 100%;
 }
 
-#minutes-hand {
+#tokyo-seconds-hand{
+    background-color: blue;
+}
+
+.minutes-hand {
     height: 100px;
     width: 2px;
     background-color: rgb(253,120,227);
@@ -44,7 +65,7 @@ main{
 
 }
 
-#hours-hand {
+.hours-hand {
     height: 80px;
     width: 4px;
     background-color: rgb(205,112,255);

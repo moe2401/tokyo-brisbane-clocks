@@ -1,4 +1,4 @@
-change javascript top clock date object is for Tokyo and bottom clock is for Brisbane.
+change javascript top clock date object is for Tokyo and bottom clock is for Brisbane. done MA & BJB 200822
 change colors and css so that Tokyo section is Japan colors, Brisbane section is Australian colors.
 change footer so colors match lest of the css.
 make responsive from iphone SE to big screen.
